@@ -9,6 +9,6 @@ def test_multiplica():
 def test_subtrai():
     assert subtrai(5, 3) == 2
 
-def test_divide():
+def test_divisao():
     assert divide(6, 3) == 2
 
