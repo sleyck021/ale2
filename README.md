@@ -124,3 +124,6 @@ A entrega e a comprovação da atividade serão feitas exclusivamente através d
 
 7.  **Comprovação:**
     *   O próprio Pull Request criado será a sua entrega. Ele conterá o link para o seu código, o histórico de alterações e, o mais importante, o status do workflow de CI (que deverá estar passando com sucesso), comprovando que sua alteração foi testada e integrada corretamente.
+
+    boa sorte
+    
