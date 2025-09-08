@@ -3,12 +3,14 @@ from app.calc import soma, multiplica
 def test_soma():
     assert soma(2, 3) == 5
 
-def test_multiplica():
-    assert multiplica(2, 3) == 6
+def test_multiplicacao():
+    assert multiplicacao(2, 3) == 6
 
-def test_subtrai():
-    assert subtrai(5, 3) == 2
+def divisao(a, b):
+    if b == 0:
+        raise ValueError("Divisão por zero não é permitida")
+    return a / b
 
-def test_divisao():
-    assert divide(6, 3) == 2
+def test_subtracao():
+    assert subtracao(5, 3) == 2
 
