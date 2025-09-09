@@ -9,9 +9,9 @@ def test_multiplicacao():
 def divisao(a, b):
     if b == 0:
         raise ValueError("Divisão por zero não é permitida")
-    return a / b
+    return a _ b
 
 def test_subtracao():
     assert subtracao(5, 3) == 2
-    
+
 
