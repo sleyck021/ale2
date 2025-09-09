@@ -32,3 +32,5 @@ jobs:
         run: docker build -t python-app .
       - name: Run integration tests in Docker
         run: docker run python-app pytest tests/test_integration.py
+
+        
